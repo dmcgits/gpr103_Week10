@@ -19,7 +19,7 @@ public class PlayerMissile : MonoBehaviour {
     _target = target;
     transform.position = origin;  // Move to launch pos.
 
-    transform.rotation = Handies.GetLocalAngleBetweenVectors2((Vector2)transform.position, target);
+    transform.rotation = Handies.GetLocalAngleBetweenVectors2((Vector2)origin, target);
   }
 
   public void Fire()

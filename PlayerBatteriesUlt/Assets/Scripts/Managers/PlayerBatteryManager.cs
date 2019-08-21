@@ -33,7 +33,6 @@ public class PlayerBatteryManager : MonoBehaviour
     PlayerMissile.OnHitTarget += PlayerMissile_OnHitTarget;
     
   }
-
  
   // Start is called before the first frame update
   void Start()
@@ -42,7 +41,6 @@ public class PlayerBatteryManager : MonoBehaviour
 
     // For later, this is the code to both get and sort them at once.
     //_batteries = GameObject.FindObjectsOfType<PlayerBattery>().OrderBy(go=>go.name).ToArray<PlayerBattery>();
-
     InputManager.OnMouseClicked += MouseClickHandler; // Listen for input
 
   }

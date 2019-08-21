@@ -1,56 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="PlayerBatteryManager">
-    <Position X="0.75" Y="0.75" Width="5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAgACgAAQAAAAAAAAAAAgAAAAAAAQAAAAAACEA=</HashCode>
-      <FileName>Assets\Scripts\Managers\PlayerBatteryManager.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PlayerBattery">
-    <Position X="0.75" Y="4.5" Width="4.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAgAIAABAAAAAAAAAEAAAAAAgABAAAAAAIACEI=</HashCode>
-      <FileName>Assets\Scripts\PlayerBattery.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="City">
-    <Position X="11" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AEACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAQAAEA=</HashCode>
-      <FileName>Assets\Scripts\City.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="PlayerMissile">
-    <Position X="5.5" Y="4.5" Width="3.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAAAAAAAAACACQAAEAAAAFAAAAEAAAAA=</HashCode>
-      <FileName>Assets\Scripts\PlayerMissile.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="SpriteAtlasManager">
-    <Position X="11" Y="3.5" Width="4" />
-    <TypeIdentifier>
-      <HashCode>AAgEAAAAAAIAEAAAAAAACAAEAAAAIAACQAAEAAAAAEA=</HashCode>
-      <FileName>Assets\Scripts\Managers\SpriteAtlasManager.cs</FileName>
-    </TypeIdentifier>
-  </Class>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="Handies">
-    <Position X="11" Y="8" Width="5.75" />
+    <Position X="7" Y="1.75" Width="5.75" />
     <TypeIdentifier>
       <HashCode>AAAIBAAAAACAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\Utility\Handies.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="PlayerBatteryManager">
+    <Position X="2.25" Y="1.75" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgACgAAQAAAAAAAAAAAgAAAAAAAQAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\PlayerBatteryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMissile" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAACACQAAEAAAAFAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerMissile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="City">
+    <Position X="15.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\Scripts\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Enum Name="PlayerBatteryId">
-    <Position X="14.75" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAgAAEAAACAABAAAAAAAAABAAA=</HashCode>
       <FileName>Assets\Scripts\Managers\PlayerBatteryManager.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="CityStatus">
-    <Position X="12.75" Y="0.5" Width="1.5" />
+    <Position X="13.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Assets\Scripts\City.cs</FileName>
