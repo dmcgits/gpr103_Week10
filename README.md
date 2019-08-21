@@ -1,5 +1,5 @@
-# Week 11 GPR103 code
+# Week 10 GPR103 code
 
-## TimedSquares
+## Firing Missiles and using Managers
 
-Make some squares appear in waves with a location and colour.
+Like it says.
